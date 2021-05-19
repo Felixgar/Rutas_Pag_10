@@ -23,10 +23,10 @@ class AlertPage extends StatelessWidget {
             ),
             FlatButton(
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-              color: Colors.blue,
+              color: Colors.blue[500],
               onPressed: () {
                 key.currentState.showSnackBar(SnackBar(
-                  content: Text('Hola, soy una Snacbar'),
+                  content: Text('Hola, soy una Snackbar'),
                 ));
               },
               child: Text('Mostar Snackbar'),
