@@ -19,7 +19,7 @@ class BotonesPage extends StatelessWidget {
                 color: Colors.blueGrey,
                 child: Text(
                   'Soy un Boton',
-                  style: TextStyle(color: Colors.black),
+                  style: TextStyle(color: Colors.white),
                 ),
               ),
               FlatButton(
@@ -30,7 +30,7 @@ class BotonesPage extends StatelessWidget {
                 color: Colors.grey,
                 child: Text(
                   'Soy un Boton',
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.black),
                 ),
               ),
               FloatingActionButton(
