@@ -16,7 +16,7 @@ class BotonesPage extends StatelessWidget {
                 onPressed: () {
                   print('Click');
                 },
-                color: Colors.blue,
+                color: Colors.blueGrey,
                 child: Text(
                   'Soy un Boton',
                   style: TextStyle(color: Colors.white),
