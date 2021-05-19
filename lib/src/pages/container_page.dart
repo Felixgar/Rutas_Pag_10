@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class ContainerPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -12,7 +13,11 @@ class ContainerPage extends StatelessWidget {
             height: 200,
             width: 200,
             color: Colors.blue[600],
-            child: Center(child: Text('Hola soy un texto', style: TextStyle(color: Colors.white),)),
+            child: Center(
+                child: Text(
+              'Hola soy un texto',
+              style: TextStyle(color: Colors.white),
+            )),
           ),
         ),
       ),
