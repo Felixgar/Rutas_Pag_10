@@ -11,7 +11,7 @@ class ContainerPage extends StatelessWidget {
           child: Container(
             height: 200,
             width: 200,
-            color: Colors.purpleAccent,
+            color: Colors.blueViolet,
             child: Center(child: Text('Hola soy un texto', style: TextStyle(color: Colors.white),)),
           ),
         ),
