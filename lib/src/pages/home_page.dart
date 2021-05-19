@@ -5,7 +5,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Felix Widgets App'),
+          title: Text('Felix"s Widgets App'),
         ),
         body: ListView(
           children: <Widget>[
