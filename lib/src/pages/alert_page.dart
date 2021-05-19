@@ -19,7 +19,7 @@ class AlertPage extends StatelessWidget {
               },
               child: Text('Mostar Alerta'),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-              color: Colors.amberAccent,
+              color: Colors.amber,
             ),
             FlatButton(
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
