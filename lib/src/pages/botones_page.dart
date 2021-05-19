@@ -27,7 +27,7 @@ class BotonesPage extends StatelessWidget {
                   print('Click');
                 },
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                color: Colors.black,
+                color: Colors.grey,
                 child: Text(
                   'Soy un Boton',
                   style: TextStyle(color: Colors.white),
